@@ -15,6 +15,11 @@ Text Domain: pro-investigations
 /* font-family: 'Montserrat', sans-serif; */
 /* font-family: 'Roboto Slab', serif; */
 
+/* Allow content inside to stretch full length of page */
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
 
 /* Homepage */
 .main-header {
@@ -34,11 +39,6 @@ Text Domain: pro-investigations
 }
 .main-header-text p {
     font-family: 'Montserrat', sans-serif;
-}
-/* Allow content inside to stretch full length of page */
-.container-fluid {
-    margin: 0;
-    padding: 0;
 }
 .home-content h2 {
     text-align: center;
@@ -92,23 +92,14 @@ Text Domain: pro-investigations
 
 /* About Page */
 .about-footer {
-    width: 60%;
-    margin: auto auto -75px auto;
-    padding: 50px 0 0 0;
-}
-.about-footer-content {
+    padding: 50px 0 50px 0;
+    margin-top: 75px;
+    margin-bottom: -50px;
     border-top: solid deepskyblue 1px;
     border-bottom: solid deepskyblue 1px;
-    height: 100px;
-    padding: 25px 0 15px 0;
-    width: 80%;
-    margin: auto;
 }
-.about-footer-content h2, a {
-    float: left;
-}
-.about-footer-content h2 {
-    padding-right: 20px;
+.about-footer h4 {
+    text-align: center;
 }
 
 /* Error 404 page */

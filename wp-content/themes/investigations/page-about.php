@@ -22,14 +22,18 @@ get_header();
 				<?php endwhile; ?>
 			<?php endif; ?>
 		</div>
-		<div class="about-footer">
-			<div class="about-footer-content">
-				<h2>Interested in working with us? </h2>
-				<a href="<?php site_url('/contact-us/') ?>" role="button" class="btn btn-lg btn-outline-info">
-					Contact Us
-				</a>
-			</div>
-		</div>
 	</div>
+    <div class="container">
+        <div class="row justify-content-center about-footer">
+            <div class="col-4">
+                <h4>Interested in working with us? </h4>
+            </div>
+            <div class="col-4">
+                <a href="<?php echo site_url('/contact-us/') ?>" role="button" class="btn btn-lg btn-outline-info">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </div>
 
 <?php get_footer(); ?>
