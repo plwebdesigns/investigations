@@ -79,3 +79,12 @@ Text Domain: pro-investigations
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 50px;
 }
+
+/* Contact Page */
+.page-id-19 div.page-content {
+    width: 45%;
+}
+.contact-submit {
+    clear: none;
+    float: right;
+}
