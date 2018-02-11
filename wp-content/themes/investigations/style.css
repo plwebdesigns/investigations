@@ -110,3 +110,19 @@ Text Domain: pro-investigations
 .about-footer-content h2 {
     padding-right: 20px;
 }
+
+/* Error 404 page */
+.error {
+    background: url("images/error-404.png") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: 500px;
+    margin: 0 0 5em;
+    padding: 8em 0;
+}
+.error-text {
+    color: #007eb5;
+    font-size: 55px;
+    font-family: 'Lobster', cursive;
+    width: 70%;
+    margin: auto;
+    padding-top: 300px;
+}

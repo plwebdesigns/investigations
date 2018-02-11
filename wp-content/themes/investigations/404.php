@@ -13,7 +13,11 @@
 get_header();
 ?>
 
-
+<div class="error">
+	<div class="error-text">
+		<P>Oops! Looks like you've entered a page that doesn't exist or has been relocated</P>
+	</div>
+</div>
 
 
 
