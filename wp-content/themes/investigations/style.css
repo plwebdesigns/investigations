@@ -88,3 +88,25 @@ Text Domain: pro-investigations
     clear: none;
     float: right;
 }
+
+
+/* About Page */
+.about-footer {
+    width: 60%;
+    margin: auto auto -75px auto;
+    padding: 50px 0 0 0;
+}
+.about-footer-content {
+    border-top: solid deepskyblue 1px;
+    border-bottom: solid deepskyblue 1px;
+    height: 100px;
+    padding: 25px 0 15px 0;
+    width: 80%;
+    margin: auto;
+}
+.about-footer-content h2, a {
+    float: left;
+}
+.about-footer-content h2 {
+    padding-right: 20px;
+}
