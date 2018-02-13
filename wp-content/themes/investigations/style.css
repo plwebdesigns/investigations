@@ -91,15 +91,35 @@ Text Domain: pro-investigations
 
 
 /* About Page */
+.about-content {
+    padding-top: 25px;
+}
+.about-content h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 30px;
+}
+.about-bio h4 {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.about-bio p {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 15px;
+}
+.about-bio figure {
+    text-align: center;
+}
 .about-footer {
     padding: 50px 0 50px 0;
     margin-top: 75px;
     margin-bottom: -50px;
-    border-top: solid deepskyblue 1px;
-    border-bottom: solid deepskyblue 1px;
+    border-top: solid #0095CB 1px;
+    border-bottom: solid #0095CB 1px;
 }
 .about-footer h4 {
-    text-align: center;
+    text-align: right;
 }
 
 /* Error 404 page */
